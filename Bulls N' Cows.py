@@ -6,7 +6,6 @@ validNum = False
 
 # Generates a random number with NO REPEATED DIGITS
 while validNum == False:
-    occurences = 0
     secretNumber = random.randint(1000, 9999)
     num1 = secretNumber
     digits = []
